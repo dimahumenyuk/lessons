@@ -1,0 +1,48 @@
+@import url("reset.css");
+
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    text-decoration: none;
+}
+.nav-bar{
+    height: 100px;
+    width: 100%;
+    background-color: #4b4b4b;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo_left, .klivat_ua, .kuxnia, .transpor, .exo, .ua-zcy, .sport_text, .music_ua{
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+.about-1, .climate-1, .kitchen-1, .transport-1, .economy-1, .sport-1, .music-1, .ua-1, .facts-1{
+    padding-top: 50px;
+}
+.about-2, .about-3, .climate-2, .climat-3, .climat-4, .kitchen-2, .kitchen-3, .kitchen-4, .kitchen-5, .kitchen-6, .kitchen-7, .transport-2, .transport-3, .transport-4, .transport-5, .transport-6{
+    padding-top: 20px;
+}
+.center{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+.footer-1{
+    display: flex;
+    justify-content: center;
+}
+.footer-2{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.footer-3{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
