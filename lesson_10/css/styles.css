@@ -1,0 +1,353 @@
+/* reset css */
+@import url("reset.css");
+
+/* import fonts.googleapis.com */
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800,900&display=swap");
+
+/* main css */
+.footer {
+   padding: 25px 15px 20px;
+   text-align: center;
+   font: 700 18px/1.5 "DM Sans", sans-serif;
+   letter-spacing: 1px;
+   color: #fff;
+   font-family: sans-serif;
+   background: rgb(63, 94, 251);
+   background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+   cursor: pointer;
+}
+
+.wrapper {
+   min-height: 100%;
+   /* overflow: hidden;  */
+   overflow: clip;
+}
+
+/* ========= page__agency ======== */
+.page__agency {
+   padding-block-start: 114px;
+   padding-block-end: 56px;
+   background: #28293E
+}
+
+.agency__container {
+   max-width: 1199px;
+   margin: 0 auto;
+   padding-inline: 15px;
+}
+
+.agency__layout {
+   display: inline-block;
+   width: 600px;
+}
+
+.layout {
+   padding-block-start: 10px;
+   vertical-align: top;
+}
+
+.layout__text-content {
+   margin-block-end: 34px;
+   position: relative;
+   z-index: 1;
+}
+
+.layout__text-content img {
+   position: absolute;
+   inset-inline-start: 278px;
+   inset-block-start: 22px;
+   z-index: -1;
+}
+
+.header-item {
+   font-family: Epilogue;
+   line-height: 200%;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+   color: #EF6D58;
+}
+
+.layout__title {
+   max-width: 513px;
+   font-family: Epilogue;
+   font-size: 72px;
+   font-weight: 800;
+   line-height: 111.111%;
+   letter-spacing: -2px;
+   color: #FFF;
+}
+
+.layout-item:not(:last-child) {
+   margin-block-end: 24px;
+}
+
+.layout__text {
+   max-width: 470px;
+   font-family: Epilogue;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 200%;
+   color: rgba(255, 255, 255, 0.64);
+}
+
+.layout__block-links {
+   margin-block-end: 108px;
+}
+
+.layout__button {
+   color: #FFF;
+   text-align: center;
+   font-family: Epilogue;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 900;
+   text-transform: uppercase;
+
+   border-radius: 6px;
+   background: #EF6D58;
+   width: 154px;
+   height: 48px;
+   line-height: 48px;
+
+   margin-inline-end: 48px;
+}
+
+.layout__link {
+   font-family: Epilogue;
+   line-height: 200%;
+   color: #FFF;
+}
+
+.agency__images {
+   display: inline-block;
+}
+
+.ag-images__images {
+   position: relative;
+}
+
+.notebook__background {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   z-index: 5;
+}
+
+.notebook__img {
+   position: absolute;
+   top: 24px;
+   left: 21px;
+   z-index: 6;
+}
+
+.ag-images__girl {
+   position: absolute;
+   top: 189px;
+   left: 324px;
+   z-index: 5;
+}
+
+.ag-images__message {
+   position: absolute;
+   left: 56px;
+   top: 431px;
+   z-index: 5;
+}
+
+.ag-images__message img {
+   border-radius: 6px;
+}
+
+.ag-images__shapes {
+   width: 112px;
+   height: 112px;
+   background-color: #EF6D58;
+   border-radius: 50%;
+   padding: 28px 35px;
+   position: absolute;
+   top: 40px;
+   left: 304px;
+   z-index: 5;
+}
+
+
+.ag-images__cloud {
+   position: absolute;
+   top: 80px;
+   left: 458px;
+   z-index: 5;
+}
+
+.ag-images__arrow {
+   position: absolute;
+   left: 314px;
+   top: 543px;
+   z-index: 5;
+}
+
+.ag-images__spiral {
+   position: absolute;
+   left: 0px;
+   top: 341px;
+   z-index: 5;
+}
+
+.ag-images__circle {
+   position: absolute;
+   top: 100px;
+   left: 100px;
+   width: 370px;
+   height: 370px;
+   border-radius: 50%;
+   background: #32334C;
+   z-index: 1;
+}
+
+.ag-images__oval {
+   width: 246px;
+   height: 305px;
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+   border-end-start-radius: 8px;
+   border-end-end-radius: 8px;
+}
+
+.layout__quote {
+   display: flex;
+   align-items: center;
+}
+
+.quote__image {
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+.quote__image img {
+   width: 48px;
+   height: 48px;
+}
+
+.quote__text {
+   margin-inline-start: 16px;
+}
+
+.quote__quote {
+   font-family: Epilogue;
+   line-height: 200%;
+   color: rgba(255, 255, 255, 0.64);
+}
+
+.quote__meta {
+   padding-inline-start: 6px;
+   font-family: Epilogue;
+   line-height: 200%;
+   color: #FFF;
+}
+
+
+/* ========= page portfolio ======== */
+.page__portfolio {
+   background-color: #28293E;
+   padding-block-start: 108px;
+   padding-block-end: 80px;
+}
+
+.portfolio__container {
+   max-width: 1201px;
+   margin: 0 auto;
+   padding-inline: 15px;
+   margin-block-end: 64px;
+}
+
+.portfolio__header {
+   margin-block-end: 20px;
+}
+
+.portfolio__works {
+   display: flex;
+   justify-content: space-between;
+}
+
+.portfolio__title {
+   display: inline-block;
+   font-family: Epilogue;
+   font-size: 56px;
+   font-weight: 800;
+   line-height: 114.286%;
+   letter-spacing: -1px;
+   color: #FFF;
+}
+
+.portfolio__button {
+   display: inline-block;
+   color: #FFF;
+   text-align: center;
+   font-family: Epilogue;
+   font-size: 14px;
+   font-weight: 900;
+   text-transform: uppercase;
+
+   border-radius: 6px;
+   border: 1px solid rgba(255, 255, 255, 0.30);
+
+   width: 170px;
+   height: 48px;
+
+   text-align: center;
+   line-height: 48px;
+
+}
+
+.portfolio__cards-container {
+   max-width: 1454px;
+   margin: 0 auto;
+   padding-inline: 15px;
+}
+
+.portfolio__items {
+   margin-inline: -16px;
+   font-size: 0px;
+}
+
+.portfolio__column {
+   padding-block: 16px;
+   width: 33.333%;
+   padding-inline: 16px;
+   display: inline-block;
+   border: 1px solid #3A3C56;
+   vertical-align: top;
+}
+
+.portfolio__item {
+   position: relative;
+}
+
+.portfolio__text {
+   position: absolute;
+   left: 48px;
+   bottom: 51px;
+   right: 15px;
+}
+
+.text-label__name {
+   display: inline-block;
+   font-family: Epilogue;
+   font-size: 16px;
+   line-height: 200%;
+   color: #391400;
+   border-radius: 19px;
+   background-color: #FFF;
+   height: 38px;
+   padding-inline: 16px;
+   margin-block-end: 24px;
+   padding-block-start: 5px;
+}
+
+.text-label__title {
+   font-family: Epilogue;
+   font-size: 40px;
+   font-weight: 800;
+   line-height: 120%;
+   color: #FFF;
+}
