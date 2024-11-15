@@ -1,0 +1,104 @@
+/* Підключення шрифтів */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+.main{
+    font-size: 36px;
+    color: #1E1B39;
+    font-weight: 600;
+    line-height: 1.5;
+    text-shadow: 2px 2px 2px rgb(81, 70, 94);
+    text-transform:capitalize;
+    text-align: center;
+ }
+ h4 {
+	font-family: "Work Sans", sans-serif;
+	color: #132238;
+	font-size: 38px;
+	font-weight: 600;
+	line-height: 131.579%;
+	text-align: center;
+}
+.homework p {
+	font-family: "Work Sans";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 133.333%;
+	text-align: center;
+	color: #556070;
+}
+h5 {
+	font-family: "DM Sans", sans-serif;
+	font-size: 88px;
+	font-weight: 700;
+	line-height: 107.955%;
+	color: #1e1b39;
+	text-align: center;
+}
+.homework-about{
+    padding-top: 55px;
+}
+.homework-about p {
+	font-family: "DM Sans", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 175%;
+	text-align: center;
+	color: #4b4b4b;
+}
+h6 {
+	font-family: "Roboto", sans-serif;
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 132%;
+	letter-spacing: 0.0625rem;
+	color: #4b4b4b;
+	text-align: center;
+}
+.homework-1 p {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 166.667%;
+	text-align: center;
+	color: #4b4b4b;
+}
+.ua{
+    width: 100%;
+    height: 100px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+main h2 {
+    font-size: 36px;
+    color:#8a2be2 ;
+}
+.main p {
+   /* white-space: nowrap;*/
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 3px #000;
+    word-spacing: 2px;
+}
+#Uglies {
+    font-size: 24px;
+    color: rgb(165, 42, 122);
+} 
+#Jaws {
+    font-size: 24px;
+    color: rgb(247, 14, 14);
+}
+#Pearl {
+    font-size: 24px;
+    color: rgb(142, 14, 247);
+}
