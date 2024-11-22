@@ -1,6 +1,18 @@
 /* Create by github.com/dimahumenyuk */
 
 /* main css */
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+::-webkit-scrollbar-track {
+	background: fff;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #4b4b4b;
+	border-radius: 30px;
+}
 body {
     background: rgb(130,126,205);
     background: linear-gradient(90deg, rgba(130,126,205,1) 0%, rgba(10,115,148,1) 50%, rgba(0,212,255,1) 100%);
