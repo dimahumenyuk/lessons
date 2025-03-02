@@ -1,0 +1,14 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+* {
+    text-decoration: none;
+}
+main {
+    font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
